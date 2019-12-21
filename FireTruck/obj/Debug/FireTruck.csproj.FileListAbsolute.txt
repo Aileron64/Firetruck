@@ -1,0 +1,14 @@
+C:\Google Drive\C#\FireTruck\FireTruck\bin\Debug\FireTruck.exe.config
+C:\Google Drive\C#\FireTruck\FireTruck\bin\Debug\FireTruck.exe
+C:\Google Drive\C#\FireTruck\FireTruck\bin\Debug\FireTruck.pdb
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.csprojAssemblyReference.cache
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\MainWindow.g.cs
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\App.g.cs
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck_MarkupCompile.cache
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\MainWindow.baml
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.g.resources
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.Properties.Resources.resources
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.csproj.GenerateResource.cache
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.csproj.CoreCompileInputs.cache
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.exe
+C:\Google Drive\C#\FireTruck\FireTruck\obj\Debug\FireTruck.pdb

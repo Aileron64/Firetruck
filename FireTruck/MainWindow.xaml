@@ -1,0 +1,33 @@
+﻿<Window x:Class="FireTruck.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Firetruck" Height="650" Width="1100" Background="LightSteelBlue">
+    <Grid Margin="15,25" Drop="DropFile" AllowDrop="true">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+            
+        <Label Grid.Column="0" Grid.Row="0" Padding="15,0">Input</Label>
+        <ListBox Grid.Column="0" Grid.Row="1" Margin="5,0" Background="Ivory" ItemsSource="{Binding Input}"></ListBox>
+
+        <Label Grid.Column="1" Grid.Row="0" Padding="15,0">Output</Label>
+        <ListBox Grid.Column="1" Grid.Row="1"
+                 ItemsSource="{Binding Output}" Margin="5,0" Background="Ivory"></ListBox>
+        
+        <Label Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" Grid.Row="0" 
+               Padding="15,0">Drag/Drop your text file anywhere</Label>
+
+        <ListBox Grid.Column="2" Grid.Row="1" SelectedIndex="{Binding FileIndex}" SelectionChanged="FileSelected"
+                 ItemsSource="{Binding InputStrings}" Margin="5,0" Background="Ivory"></ListBox>
+    </Grid>
+</Window>
